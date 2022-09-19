@@ -4,7 +4,7 @@ GH_OWNER=ggmu12
 GH_REPOSITORY=git-project
 GH_TOKEN=A3EUPOYQGRXA6OJAQ7SKPQTDE7LFO
 
-cd /home/docker/actions-runner
+cd /home/gitdocker/actions-runner
 
 ./config.sh --unattended --url https://github.com/${GH_OWNER}/${GH_REPOSITORY} --token ${GH_TOKEN}
 
